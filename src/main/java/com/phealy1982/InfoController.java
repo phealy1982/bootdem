@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class InfoController {
 	@RequestMapping("/info")
     String info() {
-        return "App is up and running";
+        return "App is up and running gh";
     }
 }
