@@ -9,11 +9,13 @@ import com.phealy1982.models.Stuff;
 public class InfoController {
 	@RequestMapping("/info")
     String info() {
+
 		
 		Stuff s = new Stuff();
 		
 		s.setNameOfStuff("le stuff");
 		
         return "App is up and running: " + s.getNameOfStuff();
+
     }
 }
