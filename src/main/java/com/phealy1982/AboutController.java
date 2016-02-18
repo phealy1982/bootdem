@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AboutController {
 	@RequestMapping("/about")
     String info() {
-        return "this is what we are about";
+        return "this is whYyyat we are about";
     }
 }
