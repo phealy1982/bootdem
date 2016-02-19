@@ -13,7 +13,6 @@ public class BootdemApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BootdemApplication.class, args);
 		
-		System.out.println("starting app...");	
+		System.out.println("startingHhhh app...");	
 	}
 }
-
